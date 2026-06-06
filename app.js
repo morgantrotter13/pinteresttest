@@ -1,0 +1,1 @@
+renderPage(COLLECTION, BLOG, LOOKS);

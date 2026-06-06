@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Editor — Summer Fashion Finds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body class="editor-body">
+  <header class="editor-header">
+    <div class="editor-header-inner">
+      <div class="editor-header-left">
+        <h1 class="editor-title">Article Editor</h1>
+        <span class="editor-status" id="save-status">Synced with items.js</span>
+      </div>
+      <div class="editor-actions">
+        <button type="button" class="editor-btn editor-btn-ghost" id="btn-reset">Reset</button>
+        <button type="button" class="editor-btn editor-btn-ghost" id="btn-preview-page">Open live page</button>
+        <button type="button" class="editor-btn editor-btn-primary" id="btn-export">Export items.js</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="editor-layout">
+    <aside class="editor-panel" id="editor-panel">
+      <nav class="editor-tabs" role="tablist">
+        <button type="button" class="editor-tab active" data-tab="page" role="tab">Page</button>
+        <button type="button" class="editor-tab" data-tab="blog" role="tab">Blog</button>
+        <button type="button" class="editor-tab" data-tab="looks" role="tab">Looks</button>
+      </nav>
+
+      <div class="editor-tab-panels">
+        <!-- Page tab -->
+        <section class="editor-tab-panel active" data-panel="page">
+          <div class="field-group">
+            <label for="siteName">Site name</label>
+            <input type="text" id="siteName" data-field="collection.siteName">
+          </div>
+          <div class="field-group">
+            <label for="copyrightName">Copyright name</label>
+            <input type="text" id="copyrightName" data-field="collection.copyrightName">
+          </div>
+          <div class="field-group">
+            <label for="eyebrow">Eyebrow label</label>
+            <input type="text" id="eyebrow" data-field="collection.eyebrow" placeholder="Amazon Finds">
+          </div>
+          <div class="field-group">
+            <label for="title">Article title</label>
+            <input type="text" id="title" data-field="collection.title">
+          </div>
+          <div class="field-group">
+            <label for="lead">Subtitle / lead</label>
+            <textarea id="lead" rows="3" data-field="collection.lead"></textarea>
+          </div>
+          <div class="field-row">
+            <div class="field-group">
+              <label for="date">Date</label>
+              <input type="text" id="date" data-field="blog.date">
+            </div>
+            <div class="field-group">
+              <label for="readTime">Read time</label>
+              <input type="text" id="readTime" data-field="blog.readTime">
+            </div>
+          </div>
+          <div class="field-group">
+            <label for="shopHeading">Shop section heading</label>
+            <input type="text" id="shopHeading" data-field="collection.shopHeading">
+          </div>
+          <div class="field-group">
+            <label for="shopSubheading">Shop section subheading</label>
+            <input type="text" id="shopSubheading" data-field="collection.shopSubheading" placeholder="Full outfit total — every piece listed below">
+          </div>
+        </section>
+
+        <!-- Blog tab -->
+        <section class="editor-tab-panel" data-panel="blog">
+          <div class="panel-toolbar">
+            <p class="panel-hint">Edit your article copy. Each section can have an optional heading and multiple paragraphs.</p>
+            <button type="button" class="editor-btn editor-btn-small" id="btn-add-section">+ Add section</button>
+          </div>
+          <div id="blog-sections"></div>
+        </section>
+
+        <!-- Looks tab -->
+        <section class="editor-tab-panel" data-panel="looks">
+          <div class="panel-toolbar">
+            <p class="panel-hint">Each look is a complete outfit. Item prices are added up automatically per look.</p>
+            <button type="button" class="editor-btn editor-btn-small" id="btn-add-look">+ Add look</button>
+          </div>
+          <div id="look-items"></div>
+        </section>
+      </div>
+    </aside>
+
+    <div class="preview-panel" id="preview-panel">
+      <div class="preview-toolbar">
+        <span class="preview-label">Live preview</span>
+        <button type="button" class="editor-btn editor-btn-small editor-btn-ghost" id="btn-toggle-panel">Hide editor</button>
+      </div>
+      <div class="preview-scroll" id="preview-scroll">
+        <div class="preview-page">
+          <main>
+            <section class="hero">
+              <div class="container hero-inner">
+                <p class="hero-eyebrow" id="hero-eyebrow"></p>
+                <h1 class="hero-title" id="hero-title"></h1>
+                <p class="hero-lead" id="hero-lead"></p>
+                <p class="hero-meta" id="hero-meta"></p>
+              </div>
+            </section>
+
+            <article class="blog container" id="blog">
+              <div class="blog-inner" id="blog-content"></div>
+            </article>
+
+            <section class="collection" id="collection">
+              <div class="container">
+                <div class="collection-header">
+                  <h2 id="shop-heading"></h2>
+                  <p class="collection-subheading" id="shop-subheading"></p>
+                </div>
+                <div id="looks-container"></div>
+              </div>
+            </section>
+          </main>
+
+          <footer class="site-footer">
+            <div class="container footer-inner">
+              <p class="disclosure">
+                This page contains Amazon affiliate links. As an Amazon Associate I earn from qualifying purchases,
+                at no extra cost to you. I only share items I genuinely love and would buy myself.
+              </p>
+              <p class="copyright">&copy; <span id="year"></span> <span id="footer-site-name">Vine Social</span>. All rights reserved.</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="editor-fab" id="btn-show-panel" hidden>Edit</button>
+
+  <script src="items.js"></script>
+  <script src="renderer.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>
