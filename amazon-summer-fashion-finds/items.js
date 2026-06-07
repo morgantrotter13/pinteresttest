@@ -1,5 +1,5 @@
 /**
- * Generated page data for /summer-fashion-finds.
+ * Generated page data for /amazon-summer-fashion-finds.
  * Edit data/products.js or data/pages.js, then run:
  *   node scripts/generate-pages.js
  */
@@ -8,42 +8,35 @@ const COLLECTION = {
   "siteName": "Summer Fashion Finds",
   "copyrightName": "Vine Social",
   "eyebrow": "Amazon Finds",
-  "title": "Summer Fashion Finds",
-  "lead": "A mix-and-match summer edit of Amazon pieces I would actually wear — matching sets, easy separates, and accessories that all work together in warm neutral tones.",
-  "shopHeading": "Shop the Edit",
-  "shopSubheading": "Mix and match these summer pieces — tap any find to shop on Amazon"
+  "title": "Amazon Summer Fashion Finds",
+  "lead": "These are the Amazon summer finds I would actually add to cart: easy sets, breezy separates, raffia texture, tortoiseshell sunglasses, and gold-and-pearl jewelry.",
+  "shopHeading": "Shop Amazon Finds",
+  "shopSubheading": "Vacation-ready clothing and accessories from the current edit"
 };
 
 const BLOG = {
   "date": "June 2026",
-  "readTime": "4 min read",
+  "readTime": "3 min read",
   "sections": [
     {
       "heading": null,
       "paragraphs": [
-        "This is less of a strict outfit formula and more of a summer closet edit. I wanted pieces you can mix and match without overthinking it — matching sets for easy days, separates that pair with what you already own, and accessories that make everything feel styled.",
-        "The color story is warm and wearable: brown, cream, olive, raffia, tortoiseshell, and gold. Everything feels natural together, so you can build a few different looks from the same handful of Amazon finds."
+        "Amazon can be overwhelming, so I pulled together the pieces that feel the most wearable for summer. Think matching sets you can throw on quickly, accessories that work across multiple outfits, and neutral colors that photograph beautifully.",
+        "This edit is especially good if you want vacation pieces that still make sense at home."
       ]
     },
     {
-      "heading": "The matching sets",
+      "heading": "What I would pack first",
       "paragraphs": [
-        "Sets are my favorite summer shortcut because half the styling is already done. The brown striped pant set feels relaxed and vacation-ready, the olive strapless set has that easy resort look, the brown gingham short set is perfect for hot days, the butter yellow striped set adds the softest pop of color, and the blue gingham bikini with the crochet cover-up brings in a beach-day option.",
-        "I would wear any of these with the jelly flats or a simple sandal, then add the raffia bag and sunglasses. They each stand alone, but they also fit into the same neutral summer palette."
+        "The olive set and striped pant set are the first things I would pack because they are complete outfits on their own. Add the raffia bag and sunglasses and you already have that easy vacation look.",
+        "The gingham short set and butter yellow striped set are more casual, and the blue gingham bikini with the white crochet cover-up is the swim combo I would pack for a beach or pool day."
       ]
     },
     {
-      "heading": "The mix-and-match separates",
+      "heading": "The extras that make it feel styled",
       "paragraphs": [
-        "The white cotton-linen skort, white wide leg pants, and striped barrel pants are the kind of bottoms that can go with almost anything here. Pair them with the brown polka dot off-shoulder top for a more styled going-out look, or keep it simple with the white ribbed tank.",
-        "The denim button-down adds a casual layer that makes the edit feel more like a real capsule. I love it with white, denim, raffia, pearl details, and gold jewelry — basically all the pieces already in this edit."
-      ]
-    },
-    {
-      "heading": "The accessories that pull it together",
-      "paragraphs": [
-        "The raffia shoulder bag, quilted puffer tote, tortoiseshell sunglasses, pearl huggie earrings, tan jelly flats, raffia slides, brown Adidas trainers, and white ruffle socks are the pieces that make the edit feel cohesive. They add texture, shine, and that summer vacation feeling without introducing a totally new color story.",
-        "Everything linked below goes straight to Amazon. I only share items I would actually buy and wear myself, and I will keep adding more finds as I spot them."
+        "Accessories are what make Amazon basics look more intentional. The raffia bag adds texture, the quilted tote gives you a travel-friendly carryall, the tortoiseshell sunglasses bring in the warm brown tones, and the pearl huggies give everything a softer finish.",
+        "I kept the palette tight so these pieces can work together instead of feeling like separate one-off purchases."
       ]
     }
   ]
@@ -52,21 +45,11 @@ const BLOG = {
 const LOOKS = [
   {
     "id": 1,
-    "name": "Matching Sets",
-    "description": "Easy one-and-done summer outfits that still mix with the accessories and separates below.",
+    "name": "Vacation-Ready Clothing",
+    "description": "Sets and separates that are easy to pack and easy to style.",
     "items": [
       {
         "id": 1,
-        "title": "Striped Halter Top & Wide Leg Pant Set",
-        "category": "2-Piece Set",
-        "description": "Brown and cream stripes, a halter top, and matching wide leg pants in soft cotton. It already looks styled, but still works with the raffia bag, jelly flats, sunglasses, and gold jewelry.",
-        "price": "$35.99",
-        "image": "/images/striped-set.png",
-        "affiliateUrl": "https://www.amazon.com/dp/B0GBV7933F?tag=mpoulos13-20",
-        "badge": "Best Find"
-      },
-      {
-        "id": 2,
         "title": "Olive Strapless Top & Wide Leg Pant Set",
         "category": "2-Piece Set",
         "description": "Olive green matching set with a pleated strapless tube top and flowy wide leg pants. Lightweight, vacation-ready, and easy to dress up with gold jewelry or keep casual with flats.",
@@ -74,6 +57,16 @@ const LOOKS = [
         "image": "/images/olive-lounge-set.png",
         "affiliateUrl": "https://www.amazon.com/dp/B0F7XH4WDN?tag=mpoulos13-20",
         "badge": "New Find"
+      },
+      {
+        "id": 2,
+        "title": "Striped Halter Top & Wide Leg Pant Set",
+        "category": "2-Piece Set",
+        "description": "Brown and cream stripes, a halter top, and matching wide leg pants in soft cotton. It already looks styled, but still works with the raffia bag, jelly flats, sunglasses, and gold jewelry.",
+        "price": "$35.99",
+        "image": "/images/striped-set.png",
+        "affiliateUrl": "https://www.amazon.com/dp/B0GBV7933F?tag=mpoulos13-20",
+        "badge": "Best Find"
       },
       {
         "id": 3,
@@ -113,16 +106,9 @@ const LOOKS = [
         "image": "/images/white-crochet-cover-up.png",
         "affiliateUrl": "https://www.amazon.com/dp/B0BYSXZKTN?tag=mpoulos13-20",
         "badge": "Beach Layer"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Mix & Match Separates",
-    "description": "Tops and bottoms that can be styled with the sets, accessories, or basics already in your closet.",
-    "items": [
+      },
       {
-        "id": 1,
+        "id": 7,
         "title": "White Cotton Linen A-Line Skort",
         "category": "Bottoms",
         "description": "A crisp white cotton-linen skort with an easy A-line shape. It gives the look of a mini skirt with the comfort of built-in shorts — perfect with the polka dot top, a tank, or a simple tee.",
@@ -131,7 +117,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/dp/B0FC6MCKTJ?tag=mpoulos13-20"
       },
       {
-        "id": 2,
+        "id": 8,
         "title": "White Linen Wide Leg Cover-Up Pants",
         "category": "Bottoms",
         "description": "Loose white linen-style wide leg pants with an easy drawstring waist. They work as a swimsuit cover-up, vacation pant, or breezy capsule piece with tanks, tube tops, and raffia accessories.",
@@ -141,7 +127,7 @@ const LOOKS = [
         "badge": "Capsule Pick"
       },
       {
-        "id": 3,
+        "id": 9,
         "title": "Striped Barrel Drawstring Pants",
         "category": "Bottoms",
         "description": "Relaxed striped barrel pants with an elastic drawstring waist and casual wide leg shape. They feel like an easy upgrade from lounge pants and pair well with tanks, button-downs, raffia slides, and simple summer accessories.",
@@ -151,7 +137,7 @@ const LOOKS = [
         "badge": "Capsule Pick"
       },
       {
-        "id": 4,
+        "id": 10,
         "title": "White Ribbed High Neck Racerback Tank",
         "category": "Top",
         "description": "A fitted white ribbed tank with a high neck and racerback shape. This is the simple capsule basic that works with linen pants, skorts, denim, shorts, and layered button-downs.",
@@ -161,7 +147,7 @@ const LOOKS = [
         "badge": "Capsule Basic"
       },
       {
-        "id": 5,
+        "id": 11,
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
         "description": "An oversized denim button-down that works as a lightweight summer layer. Wear it open over a white tank, half-tucked with shorts, or thrown over linen pants for an easy capsule outfit.",
@@ -170,7 +156,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/Astylish-Western-Shacket-Chambray-Oversized/dp/B0D14B39P3?tag=mpoulos13-20"
       },
       {
-        "id": 6,
+        "id": 12,
         "title": "Brown Polka Dot Off-Shoulder Top",
         "category": "Top",
         "description": "A fitted brown polka dot crop top with an asymmetrical off-shoulder neckline. It adds a little Y2K going-out energy while still fitting the neutral summer palette.",
@@ -182,50 +168,12 @@ const LOOKS = [
     ]
   },
   {
-    "id": 3,
-    "name": "Accessories",
-    "description": "Neutral add-ons that make the whole edit feel intentional.",
+    "id": 2,
+    "name": "Finishing Pieces",
+    "description": "The warm neutral accessories I would reuse across every outfit.",
     "items": [
       {
         "id": 1,
-        "title": "Jelly Mesh Ballet Flats",
-        "category": "Shoes",
-        "description": "Tan jelly mesh flats that are perfect for summer. Breathable hollow design, easy slip-on fit, and a neutral tone that works with the sets, skort, and raffia accessories.",
-        "price": "$29.99",
-        "image": "/images/jelly-flats.png",
-        "affiliateUrl": "https://www.amazon.com/dp/B0DS835VCF?tag=mpoulos13-20"
-      },
-      {
-        "id": 2,
-        "title": "Raffia Platform Espadrille Slides",
-        "category": "Shoes",
-        "description": "Woven raffia platform slides with an easy slip-on shape. They add texture and height while still feeling casual enough for vacation outfits, linen pants, and summer sets.",
-        "price": "$39.98",
-        "image": "/images/raffia-platform-slides.png",
-        "affiliateUrl": "https://www.amazon.com/Monrovia-Platform-Espadrilles-Vacation-Comfortable/dp/B0FJS1R2ZG?tag=mpoulos13-20"
-      },
-      {
-        "id": 3,
-        "title": "Adidas Originals Earth Strata Trainers",
-        "category": "Shoes",
-        "description": "Brown suede Adidas Originals trainers with cream stripes and a gum sole. They add a sporty casual finish to the capsule and work especially well with barrel pants, denim layers, simple tanks, and neutral summer outfits.",
-        "price": "$150",
-        "image": "/images/adidas-earth-strata-trainers.png",
-        "affiliateUrl": "https://www.amazon.com/adidas-Handball-Spezial-Earth-Strata/dp/B0CZDY6YHS?tag=mpoulos13-20",
-        "badge": "Splurge Pick"
-      },
-      {
-        "id": 4,
-        "title": "White Ruffle Ankle Socks",
-        "category": "Accessories",
-        "description": "A 4-pack of white ruffle ankle socks that adds a soft, feminine detail to sneakers, flats, and casual summer outfits. They are an easy add-on for styling the Adidas trainers or making simple looks feel more intentional.",
-        "price": "$9.99",
-        "image": "/images/white-ruffle-socks.png",
-        "affiliateUrl": "https://www.amazon.com/AniKigu-Women-Ruffle-Frilly-Womens/dp/B0GGR87313?tag=mpoulos13-20",
-        "badge": "4-Pack"
-      },
-      {
-        "id": 5,
         "title": "Boho Woven Raffia Shoulder Bag",
         "category": "Bag",
         "description": "Woven raffia in a soft cream tone, with a little gold charm chain and seashell details that feel beachy without being over the top. It adds texture to every look in the edit.",
@@ -234,7 +182,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/dp/B0GJD3L43F?tag=mpoulos13-20"
       },
       {
-        "id": 6,
+        "id": 2,
         "title": "Quilted Puffer Tote Bag",
         "category": "Bag",
         "description": "A beige quilted puffer tote with a soft oversized shape and zipper closure. It gives the edit a casual travel bag option for errands, airport days, beach packing, or carrying the capsule pieces on the go.",
@@ -244,7 +192,7 @@ const LOOKS = [
         "badge": "Travel Bag"
       },
       {
-        "id": 7,
+        "id": 3,
         "title": "Retro Oval Tortoiseshell Sunglasses",
         "category": "Accessories",
         "description": "Chic 90s-inspired cat eye sunnies with brown lenses and a tortoiseshell frame. Lightweight, UV protection, and an easy way to make the outfits feel more styled.",
@@ -254,7 +202,7 @@ const LOOKS = [
         "badge": "Deal"
       },
       {
-        "id": 8,
+        "id": 4,
         "title": "Gold Huggie Hoop Earrings with Pearl Charms",
         "category": "Jewelry",
         "description": "Small gold huggie hoops with baroque pearl drops. They add a soft gold-and-pearl detail that ties into the warm browns, cream tones, and raffia textures.",
@@ -263,13 +211,51 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/dp/B086PMT54H?tag=mpoulos13-20"
       },
       {
-        "id": 9,
+        "id": 5,
         "title": "Pearl Starfish Choker Necklace",
         "category": "Jewelry",
         "description": "A dainty pearl choker with a small gold starfish charm. It gives the capsule a soft beachy detail without overpowering the neutral outfits.",
         "price": "$9.99",
         "image": "/images/starfish-pearl-necklace.png",
         "affiliateUrl": "https://www.amazon.com/Sereney-Starfish-Necklace-Seashell-Daughter/dp/B0F6BF3ZQK?tag=mpoulos13-20"
+      },
+      {
+        "id": 6,
+        "title": "Jelly Mesh Ballet Flats",
+        "category": "Shoes",
+        "description": "Tan jelly mesh flats that are perfect for summer. Breathable hollow design, easy slip-on fit, and a neutral tone that works with the sets, skort, and raffia accessories.",
+        "price": "$29.99",
+        "image": "/images/jelly-flats.png",
+        "affiliateUrl": "https://www.amazon.com/dp/B0DS835VCF?tag=mpoulos13-20"
+      },
+      {
+        "id": 7,
+        "title": "Raffia Platform Espadrille Slides",
+        "category": "Shoes",
+        "description": "Woven raffia platform slides with an easy slip-on shape. They add texture and height while still feeling casual enough for vacation outfits, linen pants, and summer sets.",
+        "price": "$39.98",
+        "image": "/images/raffia-platform-slides.png",
+        "affiliateUrl": "https://www.amazon.com/Monrovia-Platform-Espadrilles-Vacation-Comfortable/dp/B0FJS1R2ZG?tag=mpoulos13-20"
+      },
+      {
+        "id": 8,
+        "title": "Adidas Originals Earth Strata Trainers",
+        "category": "Shoes",
+        "description": "Brown suede Adidas Originals trainers with cream stripes and a gum sole. They add a sporty casual finish to the capsule and work especially well with barrel pants, denim layers, simple tanks, and neutral summer outfits.",
+        "price": "$150",
+        "image": "/images/adidas-earth-strata-trainers.png",
+        "affiliateUrl": "https://www.amazon.com/adidas-Handball-Spezial-Earth-Strata/dp/B0CZDY6YHS?tag=mpoulos13-20",
+        "badge": "Splurge Pick"
+      },
+      {
+        "id": 9,
+        "title": "White Ruffle Ankle Socks",
+        "category": "Accessories",
+        "description": "A 4-pack of white ruffle ankle socks that adds a soft, feminine detail to sneakers, flats, and casual summer outfits. They are an easy add-on for styling the Adidas trainers or making simple looks feel more intentional.",
+        "price": "$9.99",
+        "image": "/images/white-ruffle-socks.png",
+        "affiliateUrl": "https://www.amazon.com/AniKigu-Women-Ruffle-Frilly-Womens/dp/B0GGR87313?tag=mpoulos13-20",
+        "badge": "4-Pack"
       }
     ]
   }

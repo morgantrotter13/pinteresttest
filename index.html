@@ -3,63 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Summer Fashion Finds — Amazon Summer Style</title>
-  <meta name="description" content="Mix-and-match Amazon summer fashion finds — matching sets, easy separates, and neutral accessories.">
-
-  <!-- Pinterest / social sharing -->
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Summer Fashion Finds — Amazon Summer Style">
-  <meta property="og:description" content="My favorite Amazon pieces for warm weather — matching sets, easy separates, and neutral accessories.">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&h=630&fit=crop">
-  <meta name="pinterest-rich-pin" content="false">
-
+  <title>Authentic Finds — Affiliate Page Directory</title>
+  <meta name="description" content="A directory of Vine Social affiliate landing pages for Pinterest traffic.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <main>
     <section class="hero">
       <div class="container hero-inner">
-        <p class="hero-eyebrow" id="hero-eyebrow">Amazon Finds</p>
-        <h1 class="hero-title" id="hero-title">Summer Fashion Finds</h1>
-        <p class="hero-lead" id="hero-lead"></p>
-        <p class="hero-meta" id="hero-meta"></p>
+        <p class="hero-eyebrow">Vine Social</p>
+        <h1 class="hero-title">Affiliate Page Directory</h1>
+        <p class="hero-lead">Internal index of generated Pinterest landing pages. Share the individual page URLs, not this directory.</p>
       </div>
     </section>
 
-    <article class="blog container" id="blog">
-      <div class="blog-inner" id="blog-content">
-        <!-- Blog rendered by app.js -->
-      </div>
-    </article>
-
-    <section class="collection" id="collection">
-      <div class="container">
-        <div class="collection-header">
-          <h2 id="shop-heading">Shop the Looks</h2>
-          <p class="collection-subheading" id="shop-subheading">Mix and match these summer pieces — tap any find to shop on Amazon</p>
-        </div>
-        <div id="looks-container">
-          <!-- Looks rendered by app.js -->
-        </div>
+    <section class="collection">
+      <div class="container directory-grid">
+        
+        <article class="directory-card">
+          <p class="directory-eyebrow">Amazon Finds</p>
+          <h2>Summer Fashion Finds</h2>
+          <p>Mix-and-match Amazon summer fashion finds — matching sets, easy separates, and neutral accessories.</p>
+          <a class="btn-shop" href="/summer-fashion-finds/">Open Page</a>
+        </article>
+        <article class="directory-card">
+          <p class="directory-eyebrow">Amazon Finds</p>
+          <h2>Mix &amp; Match Summer Outfits</h2>
+          <p>Amazon summer pieces that work together across multiple outfits, from matching sets to neutral accessories.</p>
+          <a class="btn-shop" href="/mix-and-match-summer-outfits/">Open Page</a>
+        </article>
+        <article class="directory-card">
+          <p class="directory-eyebrow">Amazon Finds</p>
+          <h2>Amazon Summer Fashion Finds</h2>
+          <p>A curated list of Amazon summer fashion finds for vacation, weekends, and warm-weather everyday outfits.</p>
+          <a class="btn-shop" href="/amazon-summer-fashion-finds/">Open Page</a>
+        </article>
+        <article class="directory-card">
+          <p class="directory-eyebrow">Amazon Finds</p>
+          <h2>Neutral Summer Outfit Ideas</h2>
+          <p>Neutral summer outfit ideas using Amazon finds in brown, cream, olive, raffia, tortoiseshell, and gold.</p>
+          <a class="btn-shop" href="/neutral-summer-outfit-ideas/">Open Page</a>
+        </article>
+        <article class="directory-card">
+          <p class="directory-eyebrow">Amazon Finds</p>
+          <h2>Neutral Summer Capsule Wardrobe</h2>
+          <p>A starter neutral summer capsule wardrobe with Amazon matching sets, separates, shoes, bags, and accessories.</p>
+          <a class="btn-shop" href="/neutral-summer-capsule-wardrobe/">Open Page</a>
+        </article>
+        <article class="directory-card">
+          <p class="directory-eyebrow">Amazon Finds</p>
+          <h2>Linen Pants Summer Outfit Casual</h2>
+          <p>A casual linen pants summer outfit idea with Amazon white wide leg pants, neutral tops, raffia accessories, flats, and gold jewelry.</p>
+          <a class="btn-shop" href="/linen-pants-summer-outfit-casual/">Open Page</a>
+        </article>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="disclosure">
-        This page contains Amazon affiliate links. As an Amazon Associate I earn from qualifying purchases, 
-        at no extra cost to you. I only share items I genuinely love and would buy myself.
-      </p>
-      <p class="copyright">&copy; <span id="year"></span> <span id="footer-site-name">Vine Social</span>. All rights reserved. <a href="editor.html" class="editor-link">Edit article</a></p>
+      <p class="copyright">&copy; <span id="year"></span> Vine Social. All rights reserved.</p>
     </div>
   </footer>
 
-  <script src="items.js"></script>
-  <script src="renderer.js"></script>
-  <script src="app.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
