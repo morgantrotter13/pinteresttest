@@ -50,6 +50,7 @@ const LOOKS = [
     "items": [
       {
         "id": 1,
+        "productId": "white-linen-wide-leg-pants",
         "title": "White Linen Wide Leg Cover-Up Pants",
         "category": "Bottoms",
         "description": "Loose white linen-style wide leg pants with an easy drawstring waist. They work as a swimsuit cover-up, vacation pant, or breezy capsule piece with tanks, tube tops, and raffia accessories.",
@@ -60,6 +61,7 @@ const LOOKS = [
       },
       {
         "id": 2,
+        "productId": "striped-barrel-drawstring-pants",
         "title": "Striped Barrel Drawstring Pants",
         "category": "Bottoms",
         "description": "Relaxed striped barrel pants with an elastic drawstring waist and casual wide leg shape. They feel like an easy upgrade from lounge pants and pair well with tanks, button-downs, raffia slides, and simple summer accessories.",
@@ -77,6 +79,7 @@ const LOOKS = [
     "items": [
       {
         "id": 1,
+        "productId": "white-ribbed-racerback-tank",
         "title": "White Ribbed High Neck Racerback Tank",
         "category": "Top",
         "description": "A fitted white ribbed tank with a high neck and racerback shape. This is the simple capsule basic that works with linen pants, skorts, denim, shorts, and layered button-downs.",
@@ -87,6 +90,7 @@ const LOOKS = [
       },
       {
         "id": 2,
+        "productId": "blue-gingham-underwire-bikini",
         "title": "Blue Gingham Underwire Bikini Set",
         "category": "Swimwear",
         "description": "A blue gingham two-piece bikini with an underwire top, tie details, and a soft ruffle trim. It adds a little beachy color to the edit and works perfectly under the white linen cover-up pants.",
@@ -97,6 +101,7 @@ const LOOKS = [
       },
       {
         "id": 3,
+        "productId": "white-crochet-swim-cover-up",
         "title": "White Crochet Swim Cover-Up Dress",
         "category": "Swim Cover-Up",
         "description": "A white crochet mesh swim cover-up dress with long sleeves and an easy beachy fit. It layers perfectly over the blue gingham bikini and adds texture to vacation outfits with raffia accessories.",
@@ -107,6 +112,7 @@ const LOOKS = [
       },
       {
         "id": 4,
+        "productId": "brown-polka-dot-top",
         "title": "Brown Polka Dot Off-Shoulder Top",
         "category": "Top",
         "description": "A fitted brown polka dot crop top with an asymmetrical off-shoulder neckline. It adds a little Y2K going-out energy while still fitting the neutral summer palette.",
@@ -117,6 +123,7 @@ const LOOKS = [
       },
       {
         "id": 5,
+        "productId": "denim-button-down-shirt",
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
         "description": "An oversized denim button-down that works as a lightweight summer layer. Wear it open over a white tank, half-tucked with shorts, or thrown over linen pants for an easy capsule outfit.",
@@ -126,6 +133,7 @@ const LOOKS = [
       },
       {
         "id": 6,
+        "productId": "white-linen-skort",
         "title": "White Cotton Linen A-Line Skort",
         "category": "Bottoms",
         "description": "A crisp white cotton-linen skort with an easy A-line shape. It gives the look of a mini skirt with the comfort of built-in shorts — perfect with the polka dot top, a tank, or a simple tee.",
@@ -135,6 +143,7 @@ const LOOKS = [
       },
       {
         "id": 7,
+        "productId": "jelly-mesh-flats",
         "title": "Jelly Mesh Ballet Flats",
         "category": "Shoes",
         "description": "Tan jelly mesh flats that are perfect for summer. Breathable hollow design, easy slip-on fit, and a neutral tone that works with the sets, skort, and raffia accessories.",
@@ -144,6 +153,7 @@ const LOOKS = [
       },
       {
         "id": 8,
+        "productId": "raffia-platform-slides",
         "title": "Raffia Platform Espadrille Slides",
         "category": "Shoes",
         "description": "Woven raffia platform slides with an easy slip-on shape. They add texture and height while still feeling casual enough for vacation outfits, linen pants, and summer sets.",
@@ -153,6 +163,7 @@ const LOOKS = [
       },
       {
         "id": 9,
+        "productId": "adidas-earth-strata-trainers",
         "title": "Adidas Originals Earth Strata Trainers",
         "category": "Shoes",
         "description": "Brown suede Adidas Originals trainers with cream stripes and a gum sole. They add a sporty casual finish to the capsule and work especially well with barrel pants, denim layers, simple tanks, and neutral summer outfits.",
@@ -163,6 +174,7 @@ const LOOKS = [
       },
       {
         "id": 10,
+        "productId": "white-ruffle-ankle-socks",
         "title": "White Ruffle Ankle Socks",
         "category": "Accessories",
         "description": "A 4-pack of white ruffle ankle socks that adds a soft, feminine detail to sneakers, flats, and casual summer outfits. They are an easy add-on for styling the Adidas trainers or making simple looks feel more intentional.",
@@ -173,6 +185,7 @@ const LOOKS = [
       },
       {
         "id": 11,
+        "productId": "raffia-shoulder-bag",
         "title": "Boho Woven Raffia Shoulder Bag",
         "category": "Bag",
         "description": "Woven raffia in a soft cream tone, with a little gold charm chain and seashell details that feel beachy without being over the top. It adds texture to every look in the edit.",
@@ -182,6 +195,7 @@ const LOOKS = [
       },
       {
         "id": 12,
+        "productId": "quilted-puffer-tote-bag",
         "title": "Quilted Puffer Tote Bag",
         "category": "Bag",
         "description": "A beige quilted puffer tote with a soft oversized shape and zipper closure. It gives the edit a casual travel bag option for errands, airport days, beach packing, or carrying the capsule pieces on the go.",
@@ -192,6 +206,7 @@ const LOOKS = [
       },
       {
         "id": 13,
+        "productId": "retro-tortoise-sunglasses",
         "title": "Retro Oval Tortoiseshell Sunglasses",
         "category": "Accessories",
         "description": "Chic 90s-inspired cat eye sunnies with brown lenses and a tortoiseshell frame. Lightweight, UV protection, and an easy way to make the outfits feel more styled.",
@@ -202,6 +217,7 @@ const LOOKS = [
       },
       {
         "id": 14,
+        "productId": "pearl-huggie-earrings",
         "title": "Gold Huggie Hoop Earrings with Pearl Charms",
         "category": "Jewelry",
         "description": "Small gold huggie hoops with baroque pearl drops. They add a soft gold-and-pearl detail that ties into the warm browns, cream tones, and raffia textures.",
@@ -211,6 +227,7 @@ const LOOKS = [
       },
       {
         "id": 15,
+        "productId": "starfish-pearl-necklace",
         "title": "Pearl Starfish Choker Necklace",
         "category": "Jewelry",
         "description": "A dainty pearl choker with a small gold starfish charm. It gives the capsule a soft beachy detail without overpowering the neutral outfits.",

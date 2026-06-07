@@ -24,10 +24,13 @@ function renderProductsHtml(items) {
       const badge = item.badge
         ? `<span class="product-badge">${escapeHtml(item.badge)}</span>`
         : "";
+      const productClass = item.productId
+        ? ` product-image--${escapeHtml(item.productId)}`
+        : "";
 
       return `
         <article class="product-card" role="listitem">
-          <a href="${escapeHtml(item.affiliateUrl)}" target="_blank" rel="noopener noreferrer sponsored" class="product-image-wrap" aria-label="Shop ${escapeHtml(item.title)} on Amazon">
+          <a href="${escapeHtml(item.affiliateUrl)}" target="_blank" rel="noopener noreferrer sponsored" class="product-image-wrap${productClass}" aria-label="Shop ${escapeHtml(item.title)} on Amazon">
             <img
               src="${escapeHtml(item.image)}"
               alt="${escapeHtml(item.title)}"
