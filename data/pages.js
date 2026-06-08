@@ -457,12 +457,12 @@ const pages = [
     title: "Athletic Outfits",
     metaTitle: "Athletic Outfits — Amazon Activewear & Sporty Summer Finds",
     metaDescription:
-      "Amazon athletic outfit ideas with a navy workout set, sporty sneakers, ruffle socks, casual layers, and easy everyday accessories.",
+      "Amazon athletic outfit ideas with a navy workout set, butter yellow short set, sporty sneakers, ruffle socks, casual layers, and easy everyday accessories.",
     lead:
-      "A sporty summer edit built around easy athletic outfits: a navy workout set, casual sneakers, white ruffle socks, a soft tote, and simple layers you can wear for walks, errands, travel days, or low-key weekends.",
+      "A sporty summer edit built around easy athletic outfits: a navy workout set, butter yellow short set, casual sneakers, white ruffle socks, a soft tote, and simple layers you can wear for walks, errands, travel days, or low-key weekends.",
     shopHeading: "Shop Athletic Outfit Finds",
     shopSubheading:
-      "Start with the workout set, then add sporty layers and casual accessories",
+      "Start with the workout set or butter yellow short set, then add sporty layers and casual accessories",
     ogImage: "/images/suuksess-navy-workout-set.png",
     readTime: "3 min read",
     pinAngles: [
@@ -480,10 +480,10 @@ const pages = [
         ],
       },
       {
-        heading: "Start with the activewear set",
+        heading: "Start with the activewear sets",
         paragraphs: [
           "The navy spaghetti strap workout set is the anchor piece. The padded cami and high waist biker shorts look clean together, and the navy with white trim feels classic enough to style outside the gym.",
-          "I would wear it with the brown Adidas trainers and white ruffle socks for a sporty summer look, then add the quilted tote when I need something practical.",
+          "The butter yellow striped short set gives the page a softer lounge-to-errands option. I would wear either set with the brown Adidas trainers and white ruffle socks for a sporty summer look, then add the quilted tote when I need something practical.",
         ],
       },
       {
@@ -501,6 +501,7 @@ const pages = [
           "The sporty pieces that anchor an easy athletic outfit.",
         productIds: [
           "navy-spaghetti-strap-workout-set",
+          "butter-yellow-striped-short-set",
           "white-ribbed-racerback-tank",
           "denim-button-down-shirt",
         ],

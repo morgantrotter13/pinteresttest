@@ -9,9 +9,9 @@ const COLLECTION = {
   "copyrightName": "Vine Social",
   "eyebrow": "Amazon Finds",
   "title": "Athletic Outfits",
-  "lead": "A sporty summer edit built around easy athletic outfits: a navy workout set, casual sneakers, white ruffle socks, a soft tote, and simple layers you can wear for walks, errands, travel days, or low-key weekends.",
+  "lead": "A sporty summer edit built around easy athletic outfits: a navy workout set, butter yellow short set, casual sneakers, white ruffle socks, a soft tote, and simple layers you can wear for walks, errands, travel days, or low-key weekends.",
   "shopHeading": "Shop Athletic Outfit Finds",
-  "shopSubheading": "Start with the workout set, then add sporty layers and casual accessories"
+  "shopSubheading": "Start with the workout set or butter yellow short set, then add sporty layers and casual accessories"
 };
 
 const BLOG = {
@@ -26,10 +26,10 @@ const BLOG = {
       ]
     },
     {
-      "heading": "Start with the activewear set",
+      "heading": "Start with the activewear sets",
       "paragraphs": [
         "The navy spaghetti strap workout set is the anchor piece. The padded cami and high waist biker shorts look clean together, and the navy with white trim feels classic enough to style outside the gym.",
-        "I would wear it with the brown Adidas trainers and white ruffle socks for a sporty summer look, then add the quilted tote when I need something practical."
+        "The butter yellow striped short set gives the page a softer lounge-to-errands option. I would wear either set with the brown Adidas trainers and white ruffle socks for a sporty summer look, then add the quilted tote when I need something practical."
       ]
     },
     {
@@ -61,6 +61,17 @@ const LOOKS = [
       },
       {
         "id": 2,
+        "productId": "butter-yellow-striped-short-set",
+        "title": "Butter Yellow Striped Tank & Shorts Set",
+        "category": "2-Piece Set",
+        "description": "A butter yellow striped tank-and-shorts set that feels bright but still soft. Easy for lounging, beach mornings, coffee runs, or mixing into a warm-weather capsule when you want a little color.",
+        "price": "$37.99",
+        "image": "/images/butter-yellow-striped-set.png",
+        "affiliateUrl": "https://www.amazon.com/SENSERISE-Striped-Outfits-Spaghetti-Waisted/dp/B0GXQ4K4SP?tag=mpoulos13-20",
+        "badge": "Butter Yellow"
+      },
+      {
+        "id": 3,
         "productId": "white-ribbed-racerback-tank",
         "title": "White Ribbed High Neck Racerback Tank",
         "category": "Top",
@@ -71,7 +82,7 @@ const LOOKS = [
         "badge": "Capsule Basic"
       },
       {
-        "id": 3,
+        "id": 4,
         "productId": "denim-button-down-shirt",
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
