@@ -88,6 +88,7 @@ function buildRouteHtml(page) {
   <meta property="og:title" content="${escapeHtml(page.metaTitle)}">
   <meta property="og:description" content="${escapeHtml(page.metaDescription)}">
   <meta property="og:image" content="${escapeHtml(page.ogImage)}">
+  <meta name="p:domain_verify" content="4b321b1b33fb1010955bd7763c6c0ed1">
   <meta name="pinterest-rich-pin" content="false">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -134,6 +135,11 @@ function buildRouteHtml(page) {
         This page contains Amazon affiliate links. As an Amazon Associate I earn from qualifying purchases,
         at no extra cost to you. I only share items I genuinely love and would buy myself.
       </p>
+      <p class="disclosure">
+        AI disclosure: Some written content on this site may be drafted or organized with AI assistance,
+        then reviewed and edited before publishing. Product prices, availability, and details can change;
+        please confirm final information on Amazon before purchasing.
+      </p>
       <p class="copyright">&copy; <span id="year"></span> <span id="footer-site-name">${escapeHtml(site.copyrightName)}</span>. All rights reserved.</p>
     </div>
   </footer>
@@ -154,7 +160,7 @@ function buildHomeHtml() {
           <p class="directory-eyebrow">${escapeHtml(site.eyebrow)}</p>
           <h2>${escapeHtml(page.title)}</h2>
           <p>${escapeHtml(page.metaDescription)}</p>
-          <a class="btn-shop" href="/${page.slug}/">Open Page</a>
+          <a class="btn-shop" href="/${page.slug}/">Shop the Edit</a>
         </article>`
     )
     .join("");
@@ -164,8 +170,9 @@ function buildHomeHtml() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Authentic Finds — Affiliate Page Directory</title>
-  <meta name="description" content="A directory of Vine Social affiliate landing pages for Pinterest traffic.">
+  <title>Authentic Finds — My Favorite Amazon Summer Finds</title>
+  <meta name="description" content="Shop my favorite Amazon summer fashion finds, from vacation outfits and capsule basics to neutral accessories.">
+  <meta name="p:domain_verify" content="4b321b1b33fb1010955bd7763c6c0ed1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
@@ -179,8 +186,8 @@ function buildHomeHtml() {
     <section class="hero">
       <div class="container hero-inner">
         <p class="hero-eyebrow">Vine Social</p>
-        <h1 class="hero-title">Affiliate Page Directory</h1>
-        <p class="hero-lead">Internal index of generated Pinterest landing pages. Share the individual page URLs, not this directory.</p>
+        <h1 class="hero-title">My Favorite Amazon Summer Finds</h1>
+        <p class="hero-lead">A curated edit of the pieces I keep coming back to: easy summer outfits, vacation-ready layers, capsule basics, and neutral accessories that make everything feel styled.</p>
       </div>
     </section>
 
@@ -193,6 +200,15 @@ function buildHomeHtml() {
 
   <footer class="site-footer">
     <div class="container footer-inner">
+      <p class="disclosure">
+        This page contains Amazon affiliate links. As an Amazon Associate I earn from qualifying purchases,
+        at no extra cost to you. I only share items I genuinely love and would buy myself.
+      </p>
+      <p class="disclosure">
+        AI disclosure: Some written content on this site may be drafted or organized with AI assistance,
+        then reviewed and edited before publishing. Product prices, availability, and details can change;
+        please confirm final information on Amazon before purchasing.
+      </p>
       <p class="copyright">&copy; <span id="year"></span> ${escapeHtml(site.copyrightName)}. All rights reserved.</p>
     </div>
   </footer>

@@ -28,8 +28,8 @@ const BLOG = {
     {
       "heading": "The matching sets",
       "paragraphs": [
-        "Sets are my favorite summer shortcut because half the styling is already done. The brown striped pant set feels relaxed and vacation-ready, the olive strapless set has that easy resort look, the brown gingham short set is perfect for hot days, the butter yellow striped set adds the softest pop of color, and the blue gingham bikini with the crochet cover-up brings in a beach-day option.",
-        "I would wear any of these with the jelly flats or a simple sandal, then add the raffia bag and sunglasses. They each stand alone, but they also fit into the same neutral summer palette."
+        "Sets are my favorite summer shortcut because half the styling is already done. The brown striped pant set feels relaxed and vacation-ready, the olive strapless set has that easy resort look, the brown gingham short set is perfect for hot days, the butter yellow striped set adds the softest pop of color, the navy workout set covers sporty errands and walks, and the blue gingham bikini with the crochet cover-up brings in a beach-day option.",
+        "I would wear the clothing sets with the jelly flats, raffia slides, trainers, or a simple sandal, then add the raffia bag and sunglasses. They each stand alone, but still feel easy to work into the same summer edit."
       ]
     },
     {
@@ -100,6 +100,17 @@ const LOOKS = [
       },
       {
         "id": 5,
+        "productId": "navy-spaghetti-strap-workout-set",
+        "title": "Navy Spaghetti Strap Workout Set",
+        "category": "Activewear Set",
+        "description": "A navy two-piece activewear set with a padded spaghetti strap cami and high waist biker shorts. Sporty enough for workouts, but still easy for errands, walks, travel days, or casual summer layering.",
+        "price": "$39.95",
+        "image": "/images/suuksess-navy-workout-set.png",
+        "affiliateUrl": "https://www.amazon.com/SUUKSESS-Pieces-Workout-Spaghetti-Matching/dp/B0G433SS8G?tag=mpoulos13-20",
+        "badge": "Active Set"
+      },
+      {
+        "id": 6,
         "productId": "blue-gingham-underwire-bikini",
         "title": "Blue Gingham Underwire Bikini Set",
         "category": "Swimwear",
@@ -110,7 +121,7 @@ const LOOKS = [
         "badge": "Swim Pick"
       },
       {
-        "id": 6,
+        "id": 7,
         "productId": "white-crochet-swim-cover-up",
         "title": "White Crochet Swim Cover-Up Dress",
         "category": "Swim Cover-Up",

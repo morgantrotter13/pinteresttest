@@ -10,6 +10,7 @@ const currentProducts = [
   "olive-strapless-pant-set",
   "brown-gingham-short-set",
   "butter-yellow-striped-short-set",
+  "navy-spaghetti-strap-workout-set",
   "blue-gingham-underwire-bikini",
   "white-crochet-swim-cover-up",
   "white-linen-skort",
@@ -72,8 +73,8 @@ const pages = [
       {
         heading: "The matching sets",
         paragraphs: [
-          "Sets are my favorite summer shortcut because half the styling is already done. The brown striped pant set feels relaxed and vacation-ready, the olive strapless set has that easy resort look, the brown gingham short set is perfect for hot days, the butter yellow striped set adds the softest pop of color, and the blue gingham bikini with the crochet cover-up brings in a beach-day option.",
-          "I would wear any of these with the jelly flats or a simple sandal, then add the raffia bag and sunglasses. They each stand alone, but they also fit into the same neutral summer palette.",
+          "Sets are my favorite summer shortcut because half the styling is already done. The brown striped pant set feels relaxed and vacation-ready, the olive strapless set has that easy resort look, the brown gingham short set is perfect for hot days, the butter yellow striped set adds the softest pop of color, the navy workout set covers sporty errands and walks, and the blue gingham bikini with the crochet cover-up brings in a beach-day option.",
+          "I would wear the clothing sets with the jelly flats, raffia slides, trainers, or a simple sandal, then add the raffia bag and sunglasses. They each stand alone, but still feel easy to work into the same summer edit.",
         ],
       },
       {
@@ -101,6 +102,7 @@ const pages = [
           "olive-strapless-pant-set",
           "brown-gingham-short-set",
           "butter-yellow-striped-short-set",
+          "navy-spaghetti-strap-workout-set",
           "blue-gingham-underwire-bikini",
           "white-crochet-swim-cover-up",
         ],
@@ -155,8 +157,8 @@ const pages = [
       {
         heading: "Start with a set",
         paragraphs: [
-          "The matching sets are the shortcut. The striped pant set is perfect when you want a full outfit with no styling effort, the gingham and butter yellow short sets feel casual and cute, the olive set has more of a resort feel, and the bikini with the crochet cover-up covers the swim-day version.",
-          "Because the colors are soft and neutral, the same shoes, bag, sunglasses, and jewelry can work across all of them.",
+          "The matching sets are the shortcut. The striped pant set is perfect when you want a full outfit with no styling effort, the gingham and butter yellow short sets feel casual and cute, the navy workout set is the sporty errand-day option, the olive set has more of a resort feel, and the bikini with the crochet cover-up covers the swim-day version.",
+          "Because the edit stays simple and wearable, the same shoes, bag, sunglasses, and jewelry can work across most of them.",
         ],
       },
       {
@@ -178,6 +180,7 @@ const pages = [
           "white-crochet-swim-cover-up",
           "striped-halter-pant-set",
           "olive-strapless-pant-set",
+          "navy-spaghetti-strap-workout-set",
           "white-linen-skort",
           "white-linen-wide-leg-pants",
           "striped-barrel-drawstring-pants",
@@ -225,7 +228,7 @@ const pages = [
         heading: "What I would pack first",
         paragraphs: [
           "The olive set and striped pant set are the first things I would pack because they are complete outfits on their own. Add the raffia bag and sunglasses and you already have that easy vacation look.",
-          "The gingham short set and butter yellow striped set are more casual, and the blue gingham bikini with the white crochet cover-up is the swim combo I would pack for a beach or pool day.",
+          "The gingham short set and butter yellow striped set are more casual, the navy workout set is easy for walks, travel days, or errands, and the blue gingham bikini with the white crochet cover-up is the swim combo I would pack for a beach or pool day.",
         ],
       },
       {
@@ -246,6 +249,7 @@ const pages = [
           "striped-halter-pant-set",
           "brown-gingham-short-set",
           "butter-yellow-striped-short-set",
+          "navy-spaghetti-strap-workout-set",
           "blue-gingham-underwire-bikini",
           "white-crochet-swim-cover-up",
           "white-linen-skort",
@@ -444,6 +448,73 @@ const pages = [
           "retro-tortoise-sunglasses",
           "pearl-huggie-earrings",
           "starfish-pearl-necklace",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "athletic-outfits",
+    title: "Athletic Outfits",
+    metaTitle: "Athletic Outfits — Amazon Activewear & Sporty Summer Finds",
+    metaDescription:
+      "Amazon athletic outfit ideas with a navy workout set, sporty sneakers, ruffle socks, casual layers, and easy everyday accessories.",
+    lead:
+      "A sporty summer edit built around easy athletic outfits: a navy workout set, casual sneakers, white ruffle socks, a soft tote, and simple layers you can wear for walks, errands, travel days, or low-key weekends.",
+    shopHeading: "Shop Athletic Outfit Finds",
+    shopSubheading:
+      "Start with the workout set, then add sporty layers and casual accessories",
+    ogImage: "/images/suuksess-navy-workout-set.png",
+    readTime: "3 min read",
+    pinAngles: [
+      "athletic outfits",
+      "amazon activewear finds",
+      "sporty summer outfit ideas",
+      "casual workout outfit women",
+    ],
+    sections: [
+      {
+        heading: null,
+        paragraphs: [
+          "Athletic outfits are the pieces I reach for when I want to feel pulled together without putting on a real outfit. A matching workout set makes the base easy, then sneakers, socks, a tote, and a casual layer make it feel intentional.",
+          "This edit keeps the look sporty but still wearable for real life: walks, errands, coffee runs, airport days, and casual weekends.",
+        ],
+      },
+      {
+        heading: "Start with the activewear set",
+        paragraphs: [
+          "The navy spaghetti strap workout set is the anchor piece. The padded cami and high waist biker shorts look clean together, and the navy with white trim feels classic enough to style outside the gym.",
+          "I would wear it with the brown Adidas trainers and white ruffle socks for a sporty summer look, then add the quilted tote when I need something practical.",
+        ],
+      },
+      {
+        heading: "Make it feel styled",
+        paragraphs: [
+          "A denim button-down is the easiest layer to throw over activewear when you want more coverage or a less gym-only feel. The tortoiseshell sunglasses, pearl huggies, and simple tote soften the outfit so it looks more like a casual day look.",
+          "You can also pull in the white ribbed tank on days when you want the sporty pieces without wearing a matching set.",
+        ],
+      },
+    ],
+    groups: [
+      {
+        name: "Active Outfit Base",
+        description:
+          "The sporty pieces that anchor an easy athletic outfit.",
+        productIds: [
+          "navy-spaghetti-strap-workout-set",
+          "white-ribbed-racerback-tank",
+          "denim-button-down-shirt",
+        ],
+      },
+      {
+        name: "Sporty Finishing Pieces",
+        description:
+          "Sneakers, socks, bags, and accessories that make the outfit feel styled.",
+        productIds: [
+          "adidas-earth-strata-trainers",
+          "white-ruffle-ankle-socks",
+          "quilted-puffer-tote-bag",
+          "retro-tortoise-sunglasses",
+          "pearl-huggie-earrings",
         ],
       },
     ],

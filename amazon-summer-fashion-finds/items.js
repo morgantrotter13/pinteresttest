@@ -29,7 +29,7 @@ const BLOG = {
       "heading": "What I would pack first",
       "paragraphs": [
         "The olive set and striped pant set are the first things I would pack because they are complete outfits on their own. Add the raffia bag and sunglasses and you already have that easy vacation look.",
-        "The gingham short set and butter yellow striped set are more casual, and the blue gingham bikini with the white crochet cover-up is the swim combo I would pack for a beach or pool day."
+        "The gingham short set and butter yellow striped set are more casual, the navy workout set is easy for walks, travel days, or errands, and the blue gingham bikini with the white crochet cover-up is the swim combo I would pack for a beach or pool day."
       ]
     },
     {
@@ -93,6 +93,17 @@ const LOOKS = [
       },
       {
         "id": 5,
+        "productId": "navy-spaghetti-strap-workout-set",
+        "title": "Navy Spaghetti Strap Workout Set",
+        "category": "Activewear Set",
+        "description": "A navy two-piece activewear set with a padded spaghetti strap cami and high waist biker shorts. Sporty enough for workouts, but still easy for errands, walks, travel days, or casual summer layering.",
+        "price": "$39.95",
+        "image": "/images/suuksess-navy-workout-set.png",
+        "affiliateUrl": "https://www.amazon.com/SUUKSESS-Pieces-Workout-Spaghetti-Matching/dp/B0G433SS8G?tag=mpoulos13-20",
+        "badge": "Active Set"
+      },
+      {
+        "id": 6,
         "productId": "blue-gingham-underwire-bikini",
         "title": "Blue Gingham Underwire Bikini Set",
         "category": "Swimwear",
@@ -103,7 +114,7 @@ const LOOKS = [
         "badge": "Swim Pick"
       },
       {
-        "id": 6,
+        "id": 7,
         "productId": "white-crochet-swim-cover-up",
         "title": "White Crochet Swim Cover-Up Dress",
         "category": "Swim Cover-Up",
@@ -114,7 +125,7 @@ const LOOKS = [
         "badge": "Beach Layer"
       },
       {
-        "id": 7,
+        "id": 8,
         "productId": "white-linen-skort",
         "title": "White Cotton Linen A-Line Skort",
         "category": "Bottoms",
@@ -124,7 +135,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/dp/B0FC6MCKTJ?tag=mpoulos13-20"
       },
       {
-        "id": 8,
+        "id": 9,
         "productId": "white-linen-wide-leg-pants",
         "title": "White Linen Wide Leg Cover-Up Pants",
         "category": "Bottoms",
@@ -135,7 +146,7 @@ const LOOKS = [
         "badge": "Capsule Pick"
       },
       {
-        "id": 9,
+        "id": 10,
         "productId": "striped-barrel-drawstring-pants",
         "title": "Striped Barrel Drawstring Pants",
         "category": "Bottoms",
@@ -146,7 +157,7 @@ const LOOKS = [
         "badge": "Capsule Pick"
       },
       {
-        "id": 10,
+        "id": 11,
         "productId": "white-ribbed-racerback-tank",
         "title": "White Ribbed High Neck Racerback Tank",
         "category": "Top",
@@ -157,7 +168,7 @@ const LOOKS = [
         "badge": "Capsule Basic"
       },
       {
-        "id": 11,
+        "id": 12,
         "productId": "denim-button-down-shirt",
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
@@ -167,7 +178,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/Astylish-Western-Shacket-Chambray-Oversized/dp/B0D14B39P3?tag=mpoulos13-20"
       },
       {
-        "id": 12,
+        "id": 13,
         "productId": "brown-polka-dot-top",
         "title": "Brown Polka Dot Off-Shoulder Top",
         "category": "Top",

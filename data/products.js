@@ -52,6 +52,20 @@ const products = [
       "A butter yellow striped tank-and-shorts set that feels bright but still soft. Easy for lounging, beach mornings, coffee runs, or mixing into a warm-weather capsule when you want a little color.",
   },
   {
+    id: "navy-spaghetti-strap-workout-set",
+    title: "Navy Spaghetti Strap Workout Set",
+    category: "Activewear Set",
+    price: "$39.95",
+    image: "/images/suuksess-navy-workout-set.png",
+    affiliateUrl:
+      "https://www.amazon.com/SUUKSESS-Pieces-Workout-Spaghetti-Matching/dp/B0G433SS8G?tag=mpoulos13-20",
+    badge: "Active Set",
+    colors: ["navy", "white"],
+    tags: ["activewear", "matching-set", "biker-shorts", "workout", "summer", "navy"],
+    description:
+      "A navy two-piece activewear set with a padded spaghetti strap cami and high waist biker shorts. Sporty enough for workouts, but still easy for errands, walks, travel days, or casual summer layering.",
+  },
+  {
     id: "blue-gingham-underwire-bikini",
     title: "Blue Gingham Underwire Bikini Set",
     category: "Swimwear",

@@ -28,8 +28,8 @@ const BLOG = {
     {
       "heading": "Start with a set",
       "paragraphs": [
-        "The matching sets are the shortcut. The striped pant set is perfect when you want a full outfit with no styling effort, the gingham and butter yellow short sets feel casual and cute, the olive set has more of a resort feel, and the bikini with the crochet cover-up covers the swim-day version.",
-        "Because the colors are soft and neutral, the same shoes, bag, sunglasses, and jewelry can work across all of them."
+        "The matching sets are the shortcut. The striped pant set is perfect when you want a full outfit with no styling effort, the gingham and butter yellow short sets feel casual and cute, the navy workout set is the sporty errand-day option, the olive set has more of a resort feel, and the bikini with the crochet cover-up covers the swim-day version.",
+        "Because the edit stays simple and wearable, the same shoes, bag, sunglasses, and jewelry can work across most of them."
       ]
     },
     {
@@ -115,6 +115,17 @@ const LOOKS = [
       },
       {
         "id": 7,
+        "productId": "navy-spaghetti-strap-workout-set",
+        "title": "Navy Spaghetti Strap Workout Set",
+        "category": "Activewear Set",
+        "description": "A navy two-piece activewear set with a padded spaghetti strap cami and high waist biker shorts. Sporty enough for workouts, but still easy for errands, walks, travel days, or casual summer layering.",
+        "price": "$39.95",
+        "image": "/images/suuksess-navy-workout-set.png",
+        "affiliateUrl": "https://www.amazon.com/SUUKSESS-Pieces-Workout-Spaghetti-Matching/dp/B0G433SS8G?tag=mpoulos13-20",
+        "badge": "Active Set"
+      },
+      {
+        "id": 8,
         "productId": "white-linen-skort",
         "title": "White Cotton Linen A-Line Skort",
         "category": "Bottoms",
@@ -124,7 +135,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/dp/B0FC6MCKTJ?tag=mpoulos13-20"
       },
       {
-        "id": 8,
+        "id": 9,
         "productId": "white-linen-wide-leg-pants",
         "title": "White Linen Wide Leg Cover-Up Pants",
         "category": "Bottoms",
@@ -135,7 +146,7 @@ const LOOKS = [
         "badge": "Capsule Pick"
       },
       {
-        "id": 9,
+        "id": 10,
         "productId": "striped-barrel-drawstring-pants",
         "title": "Striped Barrel Drawstring Pants",
         "category": "Bottoms",
@@ -146,7 +157,7 @@ const LOOKS = [
         "badge": "Capsule Pick"
       },
       {
-        "id": 10,
+        "id": 11,
         "productId": "white-ribbed-racerback-tank",
         "title": "White Ribbed High Neck Racerback Tank",
         "category": "Top",
@@ -157,7 +168,7 @@ const LOOKS = [
         "badge": "Capsule Basic"
       },
       {
-        "id": 11,
+        "id": 12,
         "productId": "denim-button-down-shirt",
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
@@ -167,7 +178,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/Astylish-Western-Shacket-Chambray-Oversized/dp/B0D14B39P3?tag=mpoulos13-20"
       },
       {
-        "id": 12,
+        "id": 13,
         "productId": "brown-polka-dot-top",
         "title": "Brown Polka Dot Off-Shoulder Top",
         "category": "Top",
