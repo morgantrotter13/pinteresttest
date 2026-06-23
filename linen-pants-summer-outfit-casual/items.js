@@ -123,6 +123,17 @@ const LOOKS = [
       },
       {
         "id": 5,
+        "productId": "yellow-pleated-babydoll-top",
+        "title": "Yellow Pleated Babydoll Tank Top",
+        "category": "Top",
+        "description": "A soft yellow sleeveless babydoll top with pleated detail, a round neckline, and an easy peplum shape. It adds a light pop of color while still pairing with denim, white linen pants, skorts, and neutral summer accessories.",
+        "price": "$28.99",
+        "image": "/images/yellow-pleated-babydoll-top.png",
+        "affiliateUrl": "https://www.amazon.com/dp/B0F26MRS7Q?tag=mpoulos13-20",
+        "badge": "New Top"
+      },
+      {
+        "id": 6,
         "productId": "denim-button-down-shirt",
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
@@ -132,7 +143,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/Astylish-Western-Shacket-Chambray-Oversized/dp/B0D14B39P3?tag=mpoulos13-20"
       },
       {
-        "id": 6,
+        "id": 7,
         "productId": "white-linen-skort",
         "title": "White Cotton Linen A-Line Skort",
         "category": "Bottoms",
@@ -142,7 +153,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/dp/B0FC6MCKTJ?tag=mpoulos13-20"
       },
       {
-        "id": 7,
+        "id": 8,
         "productId": "jelly-mesh-flats",
         "title": "Jelly Mesh Ballet Flats",
         "category": "Shoes",
@@ -152,7 +163,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/dp/B0DS835VCF?tag=mpoulos13-20"
       },
       {
-        "id": 8,
+        "id": 9,
         "productId": "raffia-platform-slides",
         "title": "Raffia Platform Espadrille Slides",
         "category": "Shoes",
@@ -162,7 +173,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/Monrovia-Platform-Espadrilles-Vacation-Comfortable/dp/B0FJS1R2ZG?tag=mpoulos13-20"
       },
       {
-        "id": 9,
+        "id": 10,
         "productId": "adidas-earth-strata-trainers",
         "title": "Adidas Originals Earth Strata Trainers",
         "category": "Shoes",
@@ -173,7 +184,7 @@ const LOOKS = [
         "badge": "Splurge Pick"
       },
       {
-        "id": 10,
+        "id": 11,
         "productId": "white-ruffle-ankle-socks",
         "title": "White Ruffle Ankle Socks",
         "category": "Accessories",
@@ -184,7 +195,7 @@ const LOOKS = [
         "badge": "4-Pack"
       },
       {
-        "id": 11,
+        "id": 12,
         "productId": "raffia-shoulder-bag",
         "title": "Boho Woven Raffia Shoulder Bag",
         "category": "Bag",
@@ -194,7 +205,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/dp/B0GJD3L43F?tag=mpoulos13-20"
       },
       {
-        "id": 12,
+        "id": 13,
         "productId": "quilted-puffer-tote-bag",
         "title": "Quilted Puffer Tote Bag",
         "category": "Bag",
@@ -205,7 +216,7 @@ const LOOKS = [
         "badge": "Travel Bag"
       },
       {
-        "id": 13,
+        "id": 14,
         "productId": "retro-tortoise-sunglasses",
         "title": "Retro Oval Tortoiseshell Sunglasses",
         "category": "Accessories",
@@ -216,7 +227,7 @@ const LOOKS = [
         "badge": "Deal"
       },
       {
-        "id": 14,
+        "id": 15,
         "productId": "pearl-huggie-earrings",
         "title": "Gold Huggie Hoop Earrings with Pearl Charms",
         "category": "Jewelry",
@@ -226,7 +237,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/dp/B086PMT54H?tag=mpoulos13-20"
       },
       {
-        "id": 15,
+        "id": 16,
         "productId": "starfish-pearl-necklace",
         "title": "Pearl Starfish Choker Necklace",
         "category": "Jewelry",

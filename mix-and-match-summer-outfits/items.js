@@ -35,7 +35,7 @@ const BLOG = {
     {
       "heading": "Add separates for more combinations",
       "paragraphs": [
-        "The white skort, white linen-style pants, striped barrel pants, white ribbed tank, denim button-down, and brown polka dot top are the pieces I would use to stretch this edit. They can make a styled going-out look, a beach cover-up outfit, or an easy casual outfit with basics, denim, tanks, tees, and sandals.",
+        "The white skort, white linen-style pants, striped barrel pants, white ribbed tank, yellow pleated babydoll top, denim button-down, and brown polka dot top are the pieces I would use to stretch this edit. They can make a styled going-out look, a beach cover-up outfit, or an easy casual outfit with basics, denim, tanks, tees, and sandals.",
         "That is the whole point: buy fewer random pieces and choose things that can keep working together."
       ]
     }
@@ -169,6 +169,17 @@ const LOOKS = [
       },
       {
         "id": 12,
+        "productId": "yellow-pleated-babydoll-top",
+        "title": "Yellow Pleated Babydoll Tank Top",
+        "category": "Top",
+        "description": "A soft yellow sleeveless babydoll top with pleated detail, a round neckline, and an easy peplum shape. It adds a light pop of color while still pairing with denim, white linen pants, skorts, and neutral summer accessories.",
+        "price": "$28.99",
+        "image": "/images/yellow-pleated-babydoll-top.png",
+        "affiliateUrl": "https://www.amazon.com/dp/B0F26MRS7Q?tag=mpoulos13-20",
+        "badge": "New Top"
+      },
+      {
+        "id": 13,
         "productId": "denim-button-down-shirt",
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
@@ -178,7 +189,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/Astylish-Western-Shacket-Chambray-Oversized/dp/B0D14B39P3?tag=mpoulos13-20"
       },
       {
-        "id": 13,
+        "id": 14,
         "productId": "brown-polka-dot-top",
         "title": "Brown Polka Dot Off-Shoulder Top",
         "category": "Top",

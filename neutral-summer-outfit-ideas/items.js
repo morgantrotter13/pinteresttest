@@ -29,7 +29,7 @@ const BLOG = {
       "heading": "The color palette",
       "paragraphs": [
         "Brown and cream are the base, olive adds a little depth, and the raffia bag keeps everything feeling summery. The quilted tote, tortoiseshell sunglasses, brown suede trainers, white ruffle socks, and pearl earrings pull in the same warm tones without making the outfit feel busy.",
-        "If you like a minimalist summer look, this is a good way to keep the palette simple while still having enough detail."
+        "If you like a minimalist summer look, this is a good way to keep the palette simple while still having enough detail. The yellow pleated top brings in the same soft color family as the butter yellow set when you want a brighter separate."
       ]
     },
     {
@@ -147,6 +147,17 @@ const LOOKS = [
       },
       {
         "id": 10,
+        "productId": "yellow-pleated-babydoll-top",
+        "title": "Yellow Pleated Babydoll Tank Top",
+        "category": "Top",
+        "description": "A soft yellow sleeveless babydoll top with pleated detail, a round neckline, and an easy peplum shape. It adds a light pop of color while still pairing with denim, white linen pants, skorts, and neutral summer accessories.",
+        "price": "$28.99",
+        "image": "/images/yellow-pleated-babydoll-top.png",
+        "affiliateUrl": "https://www.amazon.com/dp/B0F26MRS7Q?tag=mpoulos13-20",
+        "badge": "New Top"
+      },
+      {
+        "id": 11,
         "productId": "denim-button-down-shirt",
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
@@ -156,7 +167,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/Astylish-Western-Shacket-Chambray-Oversized/dp/B0D14B39P3?tag=mpoulos13-20"
       },
       {
-        "id": 11,
+        "id": 12,
         "productId": "brown-polka-dot-top",
         "title": "Brown Polka Dot Off-Shoulder Top",
         "category": "Top",

@@ -146,6 +146,19 @@ const products = [
       "A fitted brown polka dot crop top with an asymmetrical off-shoulder neckline. It adds a little Y2K going-out energy while still fitting the neutral summer palette.",
   },
   {
+    id: "yellow-pleated-babydoll-top",
+    title: "Yellow Pleated Babydoll Tank Top",
+    category: "Top",
+    price: "$28.99",
+    image: "/images/yellow-pleated-babydoll-top.png",
+    affiliateUrl: "https://www.amazon.com/dp/B0F26MRS7Q?tag=mpoulos13-20",
+    badge: "New Top",
+    colors: ["yellow", "butter-yellow"],
+    tags: ["separates", "top", "tank", "babydoll", "pleated", "summer"],
+    description:
+      "A soft yellow sleeveless babydoll top with pleated detail, a round neckline, and an easy peplum shape. It adds a light pop of color while still pairing with denim, white linen pants, skorts, and neutral summer accessories.",
+  },
+  {
     id: "white-ribbed-racerback-tank",
     title: "White Ribbed High Neck Racerback Tank",
     category: "Top",

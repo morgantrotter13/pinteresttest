@@ -35,7 +35,7 @@ const BLOG = {
     {
       "heading": "The mix-and-match separates",
       "paragraphs": [
-        "The white cotton-linen skort, white wide leg pants, and striped barrel pants are the kind of bottoms that can go with almost anything here. Pair them with the brown polka dot off-shoulder top for a more styled going-out look, or keep it simple with the white ribbed tank.",
+        "The white cotton-linen skort, white wide leg pants, and striped barrel pants are the kind of bottoms that can go with almost anything here. Pair them with the brown polka dot off-shoulder top for a more styled going-out look, add the yellow pleated babydoll top for a softer daytime outfit, or keep it simple with the white ribbed tank.",
         "The denim button-down adds a casual layer that makes the edit feel more like a real capsule. I love it with white, denim, raffia, pearl details, and gold jewelry — basically all the pieces already in this edit."
       ]
     },
@@ -183,6 +183,17 @@ const LOOKS = [
       },
       {
         "id": 5,
+        "productId": "yellow-pleated-babydoll-top",
+        "title": "Yellow Pleated Babydoll Tank Top",
+        "category": "Top",
+        "description": "A soft yellow sleeveless babydoll top with pleated detail, a round neckline, and an easy peplum shape. It adds a light pop of color while still pairing with denim, white linen pants, skorts, and neutral summer accessories.",
+        "price": "$28.99",
+        "image": "/images/yellow-pleated-babydoll-top.png",
+        "affiliateUrl": "https://www.amazon.com/dp/B0F26MRS7Q?tag=mpoulos13-20",
+        "badge": "New Top"
+      },
+      {
+        "id": 6,
         "productId": "denim-button-down-shirt",
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
@@ -192,7 +203,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/Astylish-Western-Shacket-Chambray-Oversized/dp/B0D14B39P3?tag=mpoulos13-20"
       },
       {
-        "id": 6,
+        "id": 7,
         "productId": "brown-polka-dot-top",
         "title": "Brown Polka Dot Off-Shoulder Top",
         "category": "Top",

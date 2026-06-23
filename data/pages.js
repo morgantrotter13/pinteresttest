@@ -17,6 +17,7 @@ const currentProducts = [
   "white-linen-wide-leg-pants",
   "striped-barrel-drawstring-pants",
   "brown-polka-dot-top",
+  "yellow-pleated-babydoll-top",
   "white-ribbed-racerback-tank",
   "denim-button-down-shirt",
   "jelly-mesh-flats",
@@ -80,7 +81,7 @@ const pages = [
       {
         heading: "The mix-and-match separates",
         paragraphs: [
-          "The white cotton-linen skort, white wide leg pants, and striped barrel pants are the kind of bottoms that can go with almost anything here. Pair them with the brown polka dot off-shoulder top for a more styled going-out look, or keep it simple with the white ribbed tank.",
+          "The white cotton-linen skort, white wide leg pants, and striped barrel pants are the kind of bottoms that can go with almost anything here. Pair them with the brown polka dot off-shoulder top for a more styled going-out look, add the yellow pleated babydoll top for a softer daytime outfit, or keep it simple with the white ribbed tank.",
           "The denim button-down adds a casual layer that makes the edit feel more like a real capsule. I love it with white, denim, raffia, pearl details, and gold jewelry — basically all the pieces already in this edit.",
         ],
       },
@@ -116,6 +117,7 @@ const pages = [
           "white-linen-wide-leg-pants",
           "striped-barrel-drawstring-pants",
           "white-ribbed-racerback-tank",
+          "yellow-pleated-babydoll-top",
           "denim-button-down-shirt",
           "brown-polka-dot-top",
         ],
@@ -164,7 +166,7 @@ const pages = [
       {
         heading: "Add separates for more combinations",
         paragraphs: [
-          "The white skort, white linen-style pants, striped barrel pants, white ribbed tank, denim button-down, and brown polka dot top are the pieces I would use to stretch this edit. They can make a styled going-out look, a beach cover-up outfit, or an easy casual outfit with basics, denim, tanks, tees, and sandals.",
+          "The white skort, white linen-style pants, striped barrel pants, white ribbed tank, yellow pleated babydoll top, denim button-down, and brown polka dot top are the pieces I would use to stretch this edit. They can make a styled going-out look, a beach cover-up outfit, or an easy casual outfit with basics, denim, tanks, tees, and sandals.",
           "That is the whole point: buy fewer random pieces and choose things that can keep working together.",
         ],
       },
@@ -185,6 +187,7 @@ const pages = [
           "white-linen-wide-leg-pants",
           "striped-barrel-drawstring-pants",
           "white-ribbed-racerback-tank",
+          "yellow-pleated-babydoll-top",
           "denim-button-down-shirt",
           "brown-polka-dot-top",
         ],
@@ -256,6 +259,7 @@ const pages = [
           "white-linen-wide-leg-pants",
           "striped-barrel-drawstring-pants",
           "white-ribbed-racerback-tank",
+          "yellow-pleated-babydoll-top",
           "denim-button-down-shirt",
           "brown-polka-dot-top",
         ],
@@ -309,7 +313,7 @@ const pages = [
         heading: "The color palette",
         paragraphs: [
           "Brown and cream are the base, olive adds a little depth, and the raffia bag keeps everything feeling summery. The quilted tote, tortoiseshell sunglasses, brown suede trainers, white ruffle socks, and pearl earrings pull in the same warm tones without making the outfit feel busy.",
-          "If you like a minimalist summer look, this is a good way to keep the palette simple while still having enough detail.",
+          "If you like a minimalist summer look, this is a good way to keep the palette simple while still having enough detail. The yellow pleated top brings in the same soft color family as the butter yellow set when you want a brighter separate.",
         ],
       },
       {
@@ -335,6 +339,7 @@ const pages = [
           "white-crochet-swim-cover-up",
           "striped-barrel-drawstring-pants",
           "white-ribbed-racerback-tank",
+          "yellow-pleated-babydoll-top",
           "denim-button-down-shirt",
           "brown-polka-dot-top",
         ],
@@ -394,7 +399,7 @@ const pages = [
       {
         heading: "The separates",
         paragraphs: [
-          "The white skort, white wide leg pants, striped barrel pants, white crochet cover-up, white ribbed tank, denim button-down, and brown polka dot top are the current mix-and-match pieces. They work together for styled summer outfits, but they also pair easily with sandals, raffia bags, and gold jewelry.",
+          "The white skort, white wide leg pants, striped barrel pants, white crochet cover-up, white ribbed tank, yellow pleated babydoll top, denim button-down, and brown polka dot top are the current mix-and-match pieces. They work together for styled summer outfits, but they also pair easily with sandals, raffia bags, and gold jewelry.",
           "The next best additions would be beige linen pants, a neutral button-down, and a linen vest so this capsule can create even more outfit formulas.",
         ],
       },
@@ -430,6 +435,7 @@ const pages = [
           "white-crochet-swim-cover-up",
           "striped-barrel-drawstring-pants",
           "white-ribbed-racerback-tank",
+          "yellow-pleated-babydoll-top",
           "denim-button-down-shirt",
           "brown-polka-dot-top",
         ],
@@ -581,6 +587,7 @@ const pages = [
           "blue-gingham-underwire-bikini",
           "white-crochet-swim-cover-up",
           "brown-polka-dot-top",
+          "yellow-pleated-babydoll-top",
           "denim-button-down-shirt",
           "white-linen-skort",
           "jelly-mesh-flats",

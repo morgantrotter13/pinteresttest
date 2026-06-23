@@ -35,7 +35,7 @@ const BLOG = {
     {
       "heading": "The separates",
       "paragraphs": [
-        "The white skort, white wide leg pants, striped barrel pants, white crochet cover-up, white ribbed tank, denim button-down, and brown polka dot top are the current mix-and-match pieces. They work together for styled summer outfits, but they also pair easily with sandals, raffia bags, and gold jewelry.",
+        "The white skort, white wide leg pants, striped barrel pants, white crochet cover-up, white ribbed tank, yellow pleated babydoll top, denim button-down, and brown polka dot top are the current mix-and-match pieces. They work together for styled summer outfits, but they also pair easily with sandals, raffia bags, and gold jewelry.",
         "The next best additions would be beige linen pants, a neutral button-down, and a linen vest so this capsule can create even more outfit formulas."
       ]
     },
@@ -183,6 +183,17 @@ const LOOKS = [
       },
       {
         "id": 6,
+        "productId": "yellow-pleated-babydoll-top",
+        "title": "Yellow Pleated Babydoll Tank Top",
+        "category": "Top",
+        "description": "A soft yellow sleeveless babydoll top with pleated detail, a round neckline, and an easy peplum shape. It adds a light pop of color while still pairing with denim, white linen pants, skorts, and neutral summer accessories.",
+        "price": "$28.99",
+        "image": "/images/yellow-pleated-babydoll-top.png",
+        "affiliateUrl": "https://www.amazon.com/dp/B0F26MRS7Q?tag=mpoulos13-20",
+        "badge": "New Top"
+      },
+      {
+        "id": 7,
         "productId": "denim-button-down-shirt",
         "title": "Oversized Denim Button-Down Shirt",
         "category": "Layer",
@@ -192,7 +203,7 @@ const LOOKS = [
         "affiliateUrl": "https://www.amazon.com/Astylish-Western-Shacket-Chambray-Oversized/dp/B0D14B39P3?tag=mpoulos13-20"
       },
       {
-        "id": 7,
+        "id": 8,
         "productId": "brown-polka-dot-top",
         "title": "Brown Polka Dot Off-Shoulder Top",
         "category": "Top",
